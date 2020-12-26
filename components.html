@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component-Library.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Naman Mehta's compnent library</h1>
+    <p>This library will my make my projects lok good and consitent.</p>
+
+    <hr>
+    <h2>@typography</h2>
+    <p>This is a pragraph which will wrap according to the width.</p>
+    <p>This para contains a <strong>bold</strong>text.</p>
+    <small>This is relatively smaller text.</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">This is a placeholder (fluid) extending to the end of page.</div>
+
+    <h3>centered container</h3>
+    <div class="container container-center">This is a placeholder (centered container) with specified width.</div>
+
+    <hr>
+    <h2>@links</h2>
+    <a class="link primary-link" href="/">Primary</a>
+    <a class="link secondary-link" href="/">Secondary</a>
+
+    <hr>
+    <h2>@lists</h2>
+    <h3>Unordered lists</h3>
+    <p>This list will not have bullets.</p>
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">Item two</li>
+    </ul>
+
+    <h3>Reverse ordered lists</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>bread</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">I am a developer</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero">
+        <img src="images/Hero.svg" alt="" class="hero-img">
+        <h1 class="hero-heading">Naman the <span style="color: var(--primary-color);">web developer</span></h1>
+    </header>
+    <div style="height: 10vh;"></div>
+
+    <hr>
+
+    <h2>@section</h2>
+
+    <section class="section">
+        <div class="container container-center">        <h1>white section</h1>
+            <p>white background</p></div>
+    </section>
+    <section class="section ow">
+        <div class="container  container-center">     <h1>offwhite section</h1>
+            <p>grey background</p></div>
+   
+    </section>
+
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a href="" class="link">SocialOne</a></li>
+            <li class="list-item-inline"><a href="" class="link">Social two</a></li>
+            <li class="list-item-inline"><a href="" class="link">Social three</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
