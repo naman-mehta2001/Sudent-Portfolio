@@ -46,18 +46,18 @@ hr{
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
 .navigation .link{
     color: white;
 }
 .navigation .link:hover{
     color:red;
-}
-.navigation .nav-pills{
-    text-align: right;
-}
-.navigation .nav-brand{
-    font-weight: bold;
-    font-size: 1.1rem;
 }
 .navigation .link-active{
     font-weight: bold;
@@ -77,7 +77,7 @@ hr{
     padding-top: 1rem;
 }
 .section{
-        padding: 2rem;
+    padding: 2rem;
 }
 .section h1{
     text-align: center;
