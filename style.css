@@ -46,6 +46,9 @@ body{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    position: fixed;
+    top: 0rem;
+    width: 100%;
 }
 .navigation .nav-brand{
     font-weight: bold;
@@ -70,6 +73,7 @@ body{
 }
 .hero{
     padding: 2rem;
+    padding-top: 7rem;
     text-align: center;
 }
 .hero .hero-img{
