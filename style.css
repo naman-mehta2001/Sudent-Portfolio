@@ -54,6 +54,17 @@ body{
 .navigation .nav-pills{
     text-align: right;
 }
+@media only screen and (max-width: 600px){
+    .navigation .nav-pills{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .list-item-inline{
+        padding: 0rem 0rem;
+    }    
+}
 .navigation .link-active{
     font-weight: bold;
 }
